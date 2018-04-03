@@ -5,16 +5,25 @@
 		
 		<title>Musical Key/Chord Generator</title>
 			
+			<link href="./Music.css" type="text/css" rel="stylesheet" >
+			
 			<script src="Music.js"> </script>
 
-			<p>Key/Chord Generator</p>
+			<p>Song Starter</p>
 	
 	</head>
 
 		<body>	
 	
-			<button onclick="RandomKeySignature()" id="KeySignature">Key</button>
-			<button onclick="RandomChords()" id="ChordsCode">Chords</button>
+			<button onclick="RandomKeySignature()" id="KeySignature">Major or Minor Key</button> <!-- This will give you any key. -->
+			
+			<button onclick="Major()" id="MajorKey">Major Key</button> <!-- This will give you any major key. -->
+			
+			<button onclick="Minor()" id="MinorKey">Minor Key</button> <!-- This will give you any minor key. -->
+			
+			<button onclick="RandomChords()" id="ChordsCode">Chords</button> <!-- This will give you a chord. -->
+			
+			<button onclick="TimeSignature()" id="TimeSignatures">Time Signature</button> <!-- This will give you a time signature. -->
 	
 <!-- Major Keys -->
 	
@@ -50,6 +59,27 @@
 				<p id="Fm"></p>
 				<p id="Ebm"></p>
 				
+<!-- Chords -->
+
+				<p id="root"></p>
+				<p id="2nd"></p>
+				<p id="3rd"></p>
+				<p id="4th"></p>
+				<p id="5th"></p>
+				<p id="6th"></p>
+				<p id="7th"></p>
+				
+<!-- Time Signatures -->
+				
+				<p id="4/4"></p>
+				<p id="2/4"></p>
+				<p id="3/4"></p>
+				<p id="6/8"></p>
+		
 		</body>
 	
+	
+	
+	
 </html>
+
