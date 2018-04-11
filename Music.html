@@ -9,12 +9,14 @@
 			
 			<script src="Music.js"> </script>
 
-			<h1>Song Starter</h1>
+			<h1 style="text-align:center">Song Starter</h1>
 	
 	</head>
 
 		<body>
 	
+			<div style="text-align:center">
+			
 			<button onclick="RandomKeySignature()" id="KeySignature">Major or Minor Key</button> <!-- This will give you any key. -->
 			
 			<button onclick="Major()" id="MajorKey">Major Key</button> <!-- This will give you any major key. -->
@@ -23,13 +25,18 @@
 			
 			<button onclick="RandomChords()" id="ChordsCode">Chords</button> <!-- This will give you a chord. -->
 			
+			<!--
+			<input placeholder="" id="ChordsCodeSearch">
+			-->
 			<button onclick="TimeSignature()" id="TimeSignatures">Time Signature</button> <!-- This will give you a time signature. -->
+	
+			</div>
 	
 <!-- Major Keys -->
 			
 		<h2>
 			
-			<div style="text-align:left">
+			<div style="text-align:center">
 				
 				<p id="CMaj"></p>
 				<p id="GMaj"></p>
@@ -51,7 +58,7 @@
 				
 <!-- Minor Keys -->
 				
-			<div style="text-align:left">	
+			<div style="text-align:center">	
 			
 				<p id="Am"></p>
 				<p id="Em"></p>
@@ -85,7 +92,7 @@
 				
 <!-- Time Signatures -->
 		
-			<div style="text-align:right">
+			<div style="text-align:center">
 		
 				<p id="4/4"></p>
 				<p id="2/4"></p>
