@@ -216,9 +216,14 @@ function Minor() {
 
 
 
+
 function RandomChords() {
-	
+
 	var Chords = document.getElementById('ChordsCode').value;
+	
+	/*
+	var Chords = document.getElementById('ChordsCodeSearch').value;
+	*/
 	
 	var Chords = Math.floor((Math.random() * 7) + 1);
 	
@@ -245,9 +250,9 @@ function RandomChords() {
 		case 7:
 			document.getElementById("7th").innerHTML = "7th"
 				break;
-		
-	}
 	
+	}
+		
 }
 
 
@@ -276,6 +281,4 @@ function TimeSignature() {
 	}
 	
 }
-
-
 
