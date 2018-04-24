@@ -3,13 +3,15 @@
 
 	<head>
 		
-		<title>Musical Key/Chord Generator</title>
+		<title>Song Starter</title>
 			
 			<link href="./Music.css" type="text/css" rel="stylesheet" >
 			
 			<script src="Music.js"> </script>
 
 			<h1 style="text-align:center">Song Starter</h1>
+			
+			<img src="http://www.choose-piano-lessons.com/images/xtreble-staff.jpg.pagespeed.ic.Bu1wvLI9K4.jpg">
 	
 	</head>
 
@@ -25,13 +27,12 @@
 			
 			<button onclick="RandomChords()" id="ChordsCode">Chords</button> <!-- This will give you a chord. -->
 			
-			<!--
-			<input placeholder="" id="ChordsCodeSearch">
-			-->
 			<button onclick="TimeSignature()" id="TimeSignatures">Time Signature</button> <!-- This will give you a time signature. -->
-	
+			
+			<button onclick="Refresh()" id="Reload">Refresh</button> <!-- Refresh button. -->
+			
 			</div>
-	
+			
 <!-- Major Keys -->
 			
 		<h2>
@@ -55,7 +56,7 @@
 				<p id="CbMaj"></p>
 				
 			</div>
-				
+			
 <!-- Minor Keys -->
 				
 			<div style="text-align:center">	
@@ -89,9 +90,9 @@
 				<p id="7th"></p>
 				
 			</div>
-				
+			
 <!-- Time Signatures -->
-		
+			
 			<div style="text-align:center">
 		
 				<p id="4/4"></p>
