@@ -1,6 +1,14 @@
 /* CSS Music */
 
 button{
-	border: 3px black solid;
+	border: 2px black solid;
+}
+
+body{
+	background: lightblue;
+}
+
+#Jazz {
+	border-style: ridge;
 }
 
