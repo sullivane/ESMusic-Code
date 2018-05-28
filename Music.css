@@ -12,6 +12,11 @@ button{
 }
 
 body {
-	background: linear-gradient(aquamarine, lightblue);
+	background: linear-gradient(aquamarine, dodgerblue);
+	height: 750px;
+}
+
+#Font {
+	font-size: 20px;
 }
 
