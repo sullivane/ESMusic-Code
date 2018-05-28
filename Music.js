@@ -227,25 +227,25 @@ function RandomChords() {
 	switch (Chords) {
 		
 		case 1:
-			document.getElementById("root").innerHTML = "Root"
+			document.getElementById("251").innerHTML = "2-5(7th)-1 Pattern"
 				break;
 		case 2:
-			document.getElementById("2nd").innerHTML = "2nd"
+			document.getElementById("1415").innerHTML = "1-4-1-5 Pattern"
 				break;
 		case 3:
-			document.getElementById("3rd").innerHTML = "3rd"
+			document.getElementById("1645").innerHTML = "1-6-4-5 Pattern"
 				break;
 		case 4:
-			document.getElementById("4th").innerHTML = "4th"
+			document.getElementById("1625").innerHTML = "1-6-2-5 Pattern"
 				break;
 		case 5:
-			document.getElementById("5th").innerHTML = "5th"
+			document.getElementById("1b74").innerHTML = "1-7(Flat)-4 Pattern"
 				break;
 		case 6:
-			document.getElementById("6th").innerHTML = "6th"
+			document.getElementById("1b7b65").innerHTML = "1-7(Flat)-6(Flat)-5(7th)"
 				break;
 		case 7:
-			document.getElementById("7th").innerHTML = "7th"
+			document.getElementById("1564").innerHTML = "1-5-6-4 Pattern"
 				break;
 	
 	}
@@ -253,39 +253,8 @@ function RandomChords() {
 }
 
 
-
-
-
-
-function TimeSignature() {
-	
-	var Time = document.getElementById('TimeSignatures').value;
-	
-	var Time = Math.floor((Math.random() * 4) + 1);
-	
-	switch (Time) {
-		
-		case 1:
-			document.getElementById("4/4").innerHTML = "4/4 Time"
-				break;
-		case 2:
-			document.getElementById("2/4").innerHTML = "2/4 Time"
-				break;
-		case 3:
-			document.getElementById("3/4").innerHTML = "3/4 Time"
-				break;
-		case 4:
-			document.getElementById("6/8").innerHTML = "6/8 Time"
-				break;
-
-	}
-	
-}
 
 function Refresh() {
 	location.reload();
 }
-
-
-
 
